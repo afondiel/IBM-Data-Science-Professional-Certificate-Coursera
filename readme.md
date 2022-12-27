@@ -17,17 +17,18 @@ That's why I took this course, to become familiar with Data Science `Laws` and u
 
 The full specialization is based on 10 courses, but you can take each of them separately if you're mostly interested in one particular topic.
 
-## What you will learn
-- ### COURSE 1. What is Data Science?
-- ### COURSE 2. Tools for Data Science
-- ### COURSE 3. Data Science Methodology
-- ### COURSE 4. Python for Data Science, AI & Development
-- ### COURSE 5. Python Project for Data Science
-- ### COURSE 6.  Databases and SQL for Data Science with Python
-- ### COURSE 7. Data Analysis with Python
-- ### COURSE 8. Data Visualization with Python
-- ### COURSE 9. Machine Learning with Python
-- ### COURSE 10.  Applied Data Science Capstone
+## What you will learn ?
+
+    1. What is Data Science?
+    2. Tools for Data Science
+    3. Data Science Methodology
+    4. Python for Data Science, AI & Development
+    5. Python Project for Data Science
+    6. Databases and SQL for Data Science with Python
+    7. Data Analysis with Python
+    8. Data Visualization with Python
+    9. Machine Learning with Python
+    10. Applied Data Science Capstone
 
 Happy learning ! :blush:
 
