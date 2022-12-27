@@ -2,20 +2,20 @@
 
 ## Overview
 
-I [recently completed](https://www.coursera.org/account/accomplishments/professional-cert/GRC4DCMSV5PH?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof) the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) from Coursera and here are my notes and what I learnt.
+I [recently completed](https://www.coursera.org/account/accomplishments/professional-cert/GRC4DCMSV5PH?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof) the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) from Coursera and here are my [notes](#) and what I learnt.
 
-## Motvation 
+## Motivation 
+
 I took this course after reading this brilliant and  famous article  :point_right: [Data Scientist: The Sexiest Job of the 21st Century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century). As Software Engineer working in the Automotive industry, I'm always wondering my-self :  `what the future of automotive industry will look a decade or half-century from now ?` 
 
-And the only thing that comes to my mind is : `the future will be something like self-driving Cars or Automated Cars equiped with very adavanced AI systems`. 
+And the only thing that comes to my mind is : `the future will be something like self-driving Cars or Automated Cars equiped with very advanced AI systems`. 
 
 So more features and functionalities will emerge, therefore the numbers of sensors and ECU will also increase, and then there will be alot of `datas` to deal with.
 
-That's why I tool this course, to become familiar with Data Science `Laws` and they can be applied in the automotive industry to make cars become **smarter** and **safer**.
+That's why I took this course, to become familiar with Data Science `Laws` and understand how they can be applied in the automotive industry in order to make vehicules become **smarter** and **safer**.
 
 
-The full specilazation is based on 10 courses, but you can take each of them separetly if you're mostly interested in one particular topic
-.
+The full specialization is based on 10 courses, but you can take each of them separately if you're mostly interested in one particular topic.
 
 ## What you will learn
 - ### COURSE 1. What is Data Science?
