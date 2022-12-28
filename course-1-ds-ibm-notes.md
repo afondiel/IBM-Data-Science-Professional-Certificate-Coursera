@@ -82,8 +82,9 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
 	- Apache sparks
 	- Hadoop (created by Dong Cutting ) => based on Data Cluster, splits data into a pieces to computing a large amount of data (gain speed, performance ...)
  
-    - How Big Data is Driving Digital Transformation?
-    		    CEO => working w/ them and the financial department to adapt the needs
+- How Big Data is Driving Digital Transformation?
+  
+    	CEO => working w/ them and the financial department to adapt the needs
 
     	/ 					\
       CDO						CIO 
