@@ -55,12 +55,12 @@
 ### Old vs new problems ? 
 - old => Predict congestion (uber taxi)
 - new => Environment, Climate Changes
-- 
-        - Find (new) solution  : 
-        		=> Identify the problem  \
-        		=> Gather datas     	  \ BUILD A MODEL !
-        		=> Identify 			  /
-        		=> Tools				 /
+
+      - Find (new) solution  : 
+      		=> Identify the problem  \
+      		=> Gather datas     	  \ BUILD A MODEL !
+      		=> Identify 			  /
+      		=> Tools				 /
 
 ### Topics algorithms
 - list : regression, data viz, neural net, nearest neighbour, classification ...
@@ -104,11 +104,11 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
  
 - How Big Data is Driving Digital Transformation?
   
-    	CEO => working w/ them and the financial department to adapt the needs
+    	CEO => working w/ CDO & CIO and the financial department to adapt the needs
 
-    	/ 					\
-      CDO						CIO 
-    (Chief Data Officer)		(Chief Information Officer)
+				/ 					\
+			CDO						CIO 
+    	(Chief Data Officer)  (Chief Information Officer)
 
 - Data Science Skills & Big Data 
   - Cloud
@@ -118,7 +118,7 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
   - Unix/Lunix
   - Maths(Algebra Statistics)
   - Jupyter note book + AWS (Virtual Account)
-  - BIG DATA (concept created by Google, Statistical technics to handle large data)
+  - BIG DATA (concept created by Google, Statistical technics to handle large volume of data)
 
 - Data Scientists at New York University 
   
@@ -168,7 +168,7 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
  /!\ - data visualization : good starting point for data mining
  - Multidimensional views of the data
  - data mining software
- - FIND  : HIDDEN trends in the data se
+ - *FIND  : HIDDEN trends in the data*
  
 7. **Evaluate data mining results**
  - Extract the result 
@@ -226,7 +226,7 @@ Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!!
  
 ### The Narrative
 - OK  
-- 
+  
 ### The structure of narrative
 
 Two types of deliverable
