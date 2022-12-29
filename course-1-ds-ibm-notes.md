@@ -313,6 +313,8 @@ The deliverable Contents:
 
 ## **References**
 
+- [Course-1 : What is Data Science ?](https://www.coursera.org/learn/what-is-datascience?specialization=ibm-data-science)
+
 - [Getting started with data science - murtaza haider](https://github.com/afondiel/cs-books/blob/main/data-science/Getting%20started%20with%20data%20science%20-%20murtaza%20haider%20-%20full.pdf)
 - [Data Scientist: The Sexiest Job of the 21st Century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)
 
