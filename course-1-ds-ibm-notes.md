@@ -1,35 +1,58 @@
 # IBM DATASCIENCE PROFESSIONAL CERTIFICATE - NOTES
  
 
-## **COURSE 1 : WHAT'S A DATA SCIENCE ?** 
+## **COURSE 1 : WHAT IS DATA SCIENCE ?** 
 ---
 
 **Table of Contents**
 
-- [**W1 : What's a Data Science ?**](#w1--whats-a-data-science-)
-	- [Fundamentals of Data Scienstis :](#fundamentals-of-data-scienstis-)
+- [**W1 : Defining Data Science and What Data Scientists Do**](#w1--defining-data-science-and-what-data-scientists-do)
+	- [What is Data Science ?](#what-is-data-science-)
+	- [Fundamentals of Data Scientist :](#fundamentals-of-data-scientist-)
 	- [Many path to Data Science](#many-path-to-data-science)
 	- [What do Data Scientists do ?](#what-do-data-scientists-do-)
 	- [A day in life of Data Scientist ?](#a-day-in-life-of-data-scientist-)
 	- [Old vs new problems ?](#old-vs-new-problems-)
 	- [Topics algorithms](#topics-algorithms)
 	- [Clouds for Data Scientist ?](#clouds-for-data-scientist-)
-	- [Big Data and Data Mining](#big-data-and-data-mining)
-		- [Data Mining ?](#data-mining-)
-- [**W2 :  Deep Learning and Machine Learning ?**](#w2---deep-learning-and-machine-learning-)
+	- [Lab](#lab)
+	- [Quiz](#quiz)
+- [**W2 : Data Science Topics**](#w2--data-science-topics)
+	- [Foundations of Big Data ?](#foundations-of-big-data-)
+		- [Big Data and Data Mining](#big-data-and-data-mining)
+	- [What is Hadoop ?](#what-is-hadoop-)
+	- [How Big Data is Driving Digital Transformation?](#how-big-data-is-driving-digital-transformation)
+		- [**Data Mining ?**](#data-mining-)
+	- [Data Scientists at New York University](#data-scientists-at-new-york-university)
+	- [Deep Learning and Machine Learning ?](#deep-learning-and-machine-learning-)
 	- [Hands-on Exercise: Data Science Exploration](#hands-on-exercise-data-science-exploration)
 	- [The Final Deliverable](#the-final-deliverable)
-- [**W3 : What Analytical Techniques/Methods Do You Need?**](#w3--what-analytical-techniquesmethods-do-you-need)
-	- [The Narrative](#the-narrative)
-	- [The structure of narrative](#the-structure-of-narrative)
-- [References](#references)
+	- [Lab](#lab-1)
+	- [Quiz](#quiz-1)
+- [**W3 : Data Science in Business**](#w3--data-science-in-business)
+	- [How Data Science is saving lives](#how-data-science-is-saving-lives)
+	- [How Should Companies Get Started in Data Science?](#how-should-companies-get-started-in-data-science)
+	- [Applications of Data Science](#applications-of-data-science)
+	- [How Can Someone Become a Data Scientist?](#how-can-someone-become-a-data-scientist)
+	- [Recruiting for Data Science](#recruiting-for-data-science)
+	- [Careers in Data Science](#careers-in-data-science)
+	- [High School Students and Data Science Careers](#high-school-students-and-data-science-careers)
+		- [What Analytical Techniques/Methods Do You Need?\*\*](#what-analytical-techniquesmethods-do-you-need)
+		- [The Narrative](#the-narrative)
+		- [The structure of narrative](#the-structure-of-narrative)
+	- [Lab](#lab-2)
+	- [Quiz](#quiz-2)
+- [**References**](#references)
 
-## **W1 : What's a Data Science ?** 
+## **W1 : Defining Data Science and What Data Scientists Do**
+---
+
+### What is Data Science ? 
 
 `Data Science is a process to understand data and do differents things`
 - keywords : trends, insights, data structured and unstructured, expore, manipulation, find answers, recommendation
 
-### Fundamentals of Data Scienstis : 
+### Fundamentals of Data Scientist : 
 - Data Analysis (question problem ? => Find Answers => Create Value)
 - Data Science (Deal with different type of datas) : log files, social medias, email, sales data, patient info files, sports perfomance data, sensor data, security camera ...
 - **Be curious**
@@ -75,8 +98,14 @@
 - Amazon : Amazon Web Services(AWS)
 - Google  : Google Cloud Platform
 - Tools : Hadloop, stata ...
+  
+### Lab
+### Quiz
 
-### Big Data and Data Mining 
+## **W2 : Data Science Topics**
+
+###  Foundations of Big Data ?
+#### Big Data and Data Mining 
 
 - Two approches
 1. Approach (traditional) : Statistical analysis
@@ -84,9 +113,7 @@
 
 - Goal: to explore hitherto unknown trends and insights by subjecting data to analysis
 
-- Big Data and Data Mining ?
-- Foundations of Big Data ?
-- What is Hadoop ?
+### What is Hadoop ?
 
 Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, tools ...)
 
@@ -102,7 +129,7 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
 	- Apache sparks
 	- Hadoop (created by Dong Cutting ) => based on Data Cluster, splits data into a pieces to computing a large amount of data (gain speed, performance ...)
  
-- How Big Data is Driving Digital Transformation?
+### How Big Data is Driving Digital Transformation?
   
     	CEO => working w/ CDO & CIO and the financial department to adapt the needs
 
@@ -120,7 +147,6 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
   - Jupyter note book + AWS (Virtual Account)
   - BIG DATA (concept created by Google, Statistical technics to handle large volume of data)
 
-- Data Scientists at New York University 
   
 #### **Data Mining ?**
 
@@ -181,7 +207,9 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
  -> Share the result w/ Stakeholders
  -> improve the quality of the resultat from the shared feedback
  
-##  **W2 :  Deep Learning and Machine Learning ?** 
+### Data Scientists at New York University 
+
+### Deep Learning and Machine Learning ? 
 ---
 - `ML` => Algorithms
 - `DL` => Model based on Neural Network 
@@ -217,17 +245,44 @@ Analytics = communicate findings (set of insights in the data) using Tables & pl
       - Good analysis / Driven - data / Analytics skills ? 
       - Company needs : Engineer/Architecture/ Design/ Team expansion
       - Technical skills : Statistical, algo, ml, bigdata : datastoring ...
+### Lab
+### Quiz
 
-## **W3 : What Analytical Techniques/Methods Do You Need?**
----
+## **W3 : Data Science in Business**
+
+### How Data Science is saving lives
+- **healthcare**
+  - help professionals to give the best treatment to patients 
+- **Prevent natural catastrophes**
+
+### How Should Companies Get Started in Data Science?
+- capturing/gathering data (about costs and revenues ...)
+- archive it
+- start doing measurement
+- build a strong team
+
+### Applications of Data Science
+- recomendation systems based on generated data by the constumers from devices like fitbits, Apple/android watches
+- UPS 
+  - in 2013 : uses Data from constumers, drivers and vehicles in a new Data Science system (Route guidance systems) to save time, money and fuel
+- Netflix
+  - recomendation systems
+- Help a firm to build competetive advantage
+
+### How Can Someone Become a Data Scientist?
+### Recruiting for Data Science
+### Careers in Data Science
+### High School Students and Data Science Careers
+
+####  What Analytical Techniques/Methods Do You Need?**
 - identify the type of data for analysis
 - bias vs compensation ?
 Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!! 
  
-### The Narrative
+#### The Narrative
 - OK  
   
-### The structure of narrative
+#### The structure of narrative
 
 Two types of deliverable
 - brief
@@ -253,7 +308,8 @@ The deliverable Contents:
 		- Conclusion
 		- acknowledgments
 		- references, and appendices (if needed).
-
+### Lab
+### Quiz
 
 ## **References**
 
