@@ -131,8 +131,8 @@ Open Source (OSI) vs Free SW (SFS) ? (=>different License )
 
 ```mermaid
 graph LR:
-    Data Management-->Data Transformation-Integration;
-    Data Management-->Data Visualization;
+  A[Data Management]-->B[Data Transformation Integration];
+  B-->C[Data Visualization];
 ```
 
 - [Data Management](#data-management) : is the process of persisting and retrieving data
@@ -441,9 +441,9 @@ Applications :
 
 ```mermaid
 graph LR:
-  A[Prepare Data]-->[Build Model];
+  A[Prepare Data]-->B[Build Model];
   B-->C[Training model]	
-  C-->Deploy model
+  C-->D[Deploy model]
 ```
 => Prepare Data  : (collect data , clean, label)  
 => Build Model : from scratch/ zoo model that fits to the problem
@@ -889,7 +889,8 @@ Instructions: Create and Share Your Jupyter Notebook
 - Reading: Reading IBM Digital Badge
 
 
-## Reference 
+## References 
 - [Course-2 : Tools for Data Science](https://www.coursera.org/learn/open-source-tools-for-data-science?specialization=ibm-data-science)
+- [Mermaid doc](https://unpkg.com/mermaid@7.0.3/dist/www/flowchart.html#nodes-shapes)
 
 
