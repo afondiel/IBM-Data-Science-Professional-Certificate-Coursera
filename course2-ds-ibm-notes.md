@@ -130,7 +130,7 @@ Open Source (OSI) vs Free SW (SFS) ? (=>different License )
 ### Introduction 
 
 ```mermaid
-graph LR:
+graph LR;
   A[Data Management]-->B[Data Transformation Integration];
   B-->C[Data Visualization];
 ```
@@ -440,7 +440,7 @@ Applications :
 **ML/DL Pipeline-process**
 
 ```mermaid
-graph LR:
+graph LR;
   A[Prepare Data]-->B[Build Model];
   B-->C[Training model]	
   C-->D[Deploy model]
