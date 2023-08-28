@@ -1,10 +1,6 @@
-# IBM DATASCIENCE PROFESSIONAL CERTIFICATE - NOTES
- 
+# COURSE 1 : WHAT IS DATA SCIENCE ?
 
-## **COURSE 1 : WHAT IS DATA SCIENCE ?** 
----
-
-**Table of Contents**
+## Table of Contents
 
 - [**W1 : Defining Data Science and What Data Scientists Do**](#w1--defining-data-science-and-what-data-scientists-do)
 	- [What is Data Science ?](#what-is-data-science-)
@@ -102,7 +98,7 @@
 ### Lab
 ### Quiz
 
-## **W2 : Data Science Topics**
+## W2 : Data Science Topics
 
 ###  Foundations of Big Data ?
 #### Big Data and Data Mining 
@@ -311,7 +307,7 @@ The deliverable Contents:
 ### Lab
 ### Quiz
 
-## **References**
+## References
 
 - [Course-1 : What is Data Science ?](https://www.coursera.org/learn/what-is-datascience?specialization=ibm-data-science)
 
