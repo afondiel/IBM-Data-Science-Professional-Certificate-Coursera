@@ -1,4 +1,4 @@
-# COURSE 1 : WHAT IS DATA SCIENCE ?
+# Course 1: What is Data Science?
 
 ## Table of Contents
 
