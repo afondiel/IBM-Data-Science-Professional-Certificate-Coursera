@@ -7,7 +7,7 @@
 - Demonstrate proficiency in using Python libraries such as Pandas, Numpy, and Beautiful Soup.
 - Access web data using APIs and web scraping from Python in Jupyter Notebooks. 
 
-**Key wWords**: Python Programming, Dashboards and Charts, dash, Data Visualization, Matplotlib
+**Skills you'll gain:** Python Programming, Dashboards and Charts, dash, Data Visualization, Matplotlib
 
 ## Table of Contents
 
