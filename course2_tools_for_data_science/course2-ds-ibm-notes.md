@@ -1,5 +1,14 @@
 # Course 2: Tools for Data Science 
 
+**What you'll learn**
+
+- Describe the Data Scientist’s tool kit which includes: Libraries & Packages, Data sets, Machine learning models, and Big Data tools   
+- Utilize languages commonly used by data scientists like Python, R, and SQL   
+- Demonstrate working knowledge of tools such as Jupyter notebooks and RStudio and utilize their various features    
+- Create and manage source code for data science using Git repositories and GitHub.   
+
+**Skills you'll gain**: Data Science, Python Programming, Github, Rstudio, Jupyter notebooks
+
 ## Table of Contents
 
 - [**W1 : Languages of Data Science**](#w1--languages-of-data-science)
@@ -152,6 +161,7 @@ graph LR;
 - [Execution Environment](#execution-environment) : where data processing, model training, Deployment take places
 - [Fully integrated Visual Tools](#fully-integrated-visual-tools) : `integrates all`
 
+
 ### Open Source Tools for Data Science - Part 1 
 
 #### Data Management tools
@@ -237,6 +247,9 @@ After a model is built => `API consummable` to another apps
 - RAY (riselab) : deeplearning training on a large scale
 
 #### Fully INTEGRATED Visual Tools 
+
+![](./docs/data-science-workflow-tools.PNG)
+
 - No programming skills necessary
 => Data Int - Data Viz - Model Building
 
@@ -471,16 +484,18 @@ graph LR;
 
 ### MAX model serving microservices
 
+```
+-----------------------------------------------------------------------------------------
+Data 				   + 	Model  +	Compute ressources 		+ 		Domain expertise
+(Input/output and			(	Pretrained	 model	) 					(REST API)	
+model processing code)
+-----------------------------------------------------------------------------------------
+  model serving container (Docker images ) => deploy in production w/ Kubernetes
+----------------------------------------------------------------------------------------
+HW : Local Machine/Private cloud / Hybrid cloud / Public cloud
+-----------------------------------------------------------------------------------------
 
-    -----------------------------------------------------------------------------------------
-    Data 				   + 	Model  +	Compute ressources 		+ 		Domain expertise
-    (Input/output and			(	Pretrained	 model	) 					(REST API)	
-    model processing code)
-    -----------------------------------------------------------------------------------------
-      model serving container (Docker images ) => deploy in production w/ Kubernetes
-    ----------------------------------------------------------------------------------------
-    HW : Local Machine/Private cloud / Hybrid cloud / Public cloud
-    -----------------------------------------------------------------------------------------
+```
 
 ### Model serving microservices API 
 - REST API 
