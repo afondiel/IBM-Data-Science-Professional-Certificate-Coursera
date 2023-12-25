@@ -1,5 +1,14 @@
 # Course 1: What is Data Science?
 
+**What you'll learn**
+
+- Define data science and its importance in today’s data-driven world.
+- Describe the various paths that can lead to a career in data science.
+- Summarize  advice given by seasoned data science professionals to data scientists who are just starting out.
+- Explain why data science is considered the most in-demand job in the 21st century. 
+
+**Skills you'll gain**: Model Selection, Data Analysis, Python Programming, Data Visualization, Predictive Modelling
+
 ## Table of Contents
 
 - [**W1 : Defining Data Science and What Data Scientists Do**](#w1--defining-data-science-and-what-data-scientists-do)
@@ -18,7 +27,7 @@
 		- [Big Data and Data Mining](#big-data-and-data-mining)
 	- [What is Hadoop ?](#what-is-hadoop-)
 	- [How Big Data is Driving Digital Transformation?](#how-big-data-is-driving-digital-transformation)
-		- [**Data Mining ?**](#data-mining-)
+		- [Data Mining?](#data-mining)
 	- [Data Scientists at New York University](#data-scientists-at-new-york-university)
 	- [Deep Learning and Machine Learning ?](#deep-learning-and-machine-learning-)
 	- [Hands-on Exercise: Data Science Exploration](#hands-on-exercise-data-science-exploration)
@@ -144,7 +153,7 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
   - BIG DATA (concept created by Google, Statistical technics to handle large volume of data)
 
   
-#### **Data Mining ?**
+#### Data Mining?
 
 7 Steps Down the Data Mining : 
 
@@ -155,7 +164,7 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
  - Define expected exercise resultats and accuracy
  - High levels of accuracy from data mining would cost more and vice versa.
  
-1. **Select data**
+2. **Select data**
 
  - The output of a data mining exercise largely depends upon the quality of data being used.
  - Data might be available 
@@ -270,7 +279,7 @@ Analytics = communicate findings (set of insights in the data) using Tables & pl
 ### Careers in Data Science
 ### High School Students and Data Science Careers
 
-####  What Analytical Techniques/Methods Do You Need?**
+####  What Analytical Techniques/Methods Do You Need?
 - identify the type of data for analysis
 - bias vs compensation ?
 Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!! 
@@ -288,22 +297,24 @@ The deliverable Contents:
  - Tables (row, columns)
  - Plot graphics
 
-		
-		`The deliverable template` 
-		- cover page
-		- Table of figures
-		- Table of graphics ??
-		- table of contents(ToC)
-		- executive summary//abstract
-		- (Introduction)
-		- detailed contents
-		- -Literature review
-		- -Methodology sections ??
-		- -Results section??
-		- -Discussion section ?? (POWER OF NARRATIVE//STORYTELLING)
-		- Conclusion
-		- acknowledgments
-		- references, and appendices (if needed).
+```
+The deliverable template: 
+- cover page
+- Table of figures
+- Table of graphics ??
+- table of contents(ToC)
+- executive summary//abstract
+- (Introduction)
+- detailed contents
+- -Literature review
+- -Methodology sections ??
+- -Results section??
+- -Discussion section ?? (POWER OF NARRATIVE//STORYTELLING)
+- Conclusion
+- acknowledgments
+- references, and appendices (if needed).
+```
+
 ### Lab
 ### Quiz
 
