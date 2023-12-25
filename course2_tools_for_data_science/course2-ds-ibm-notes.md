@@ -1,4 +1,12 @@
-# COURSE 2 : TOOLS FOR DATA SCIENCE 
+# Course 2: Tools for Data Science 
+
+## Table of Contents
+
+- [**W1 : Languages of Data Science**](#w1--languages-of-data-science)
+- [**W2 : Open Source Tools**](#w2--open-source-tools)
+- [**W3 : Watson Studio**](#w3--watson-studio)
+- [**W4 : Create and Share Your Jupyter Notebook**](#w4--create-and-share-your-jupyter-notebook)
+- [References](#references)
 
 ## **W1 : Languages of Data Science**
 
@@ -495,9 +503,10 @@ How to explore those data sets
 Find ready-to-use deep learning models on the Model Asset Exchange
 Explore the deep learning model-serving detecting the image 
 
-#### ** W2 : Open Source Tools
+## **W2 : Open Source Tools**
 
-##### Introduction to Jupyter Notebook  : 
+### Introduction to Jupyter Notebook  : 
+
 - Jupyter : Julia-Python-R
 - jupyter created from ipython 
 - A tool for recording Data Science experimentation
