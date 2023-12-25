@@ -1,6 +1,6 @@
-# COURSE 3 : DATA SCIENCE METHODOLOGY 
+# Course 3: Data Science Methodology 
 
-**Table of Contents**
+## Table of Contents
 
 - [W1 : From Problem to Approach and From Requirements to Collection](#w1--from-problem-to-approach-and-from-requirements-to-collection)
   - [Welcome - Data Science Methodology](#welcome---data-science-methodology)
