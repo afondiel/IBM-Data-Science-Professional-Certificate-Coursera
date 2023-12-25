@@ -1,5 +1,4 @@
-# COURSE 4: PYTHON FOR DATA SCIENCE, AI & DEVELOPPER
-
+# Course 4: Python for Data Science, AI & Development
 
 **Course Objectives**
 
@@ -9,11 +8,14 @@
 - Access web data using APIs and web scraping from Python in Jupyter Notebooks.  
 
 **Table of Contents**
-- [W1: Python Basics](#w1--python-basics)
-- [W2: Python Data Structures](#w2--python-data-structures)
-- [W3: Python Programming Fundamentals](#w3--python-programming-fundamentals)
-- [W4: Working with Data in Python](#w4--working-with-data-in-python)
-- [W5: APIs, and Data Collection](#w5--apis-and-data-collection)
+- [Course 4: Python for Data Science, AI \& Development](#course-4-python-for-data-science-ai--development)
+  - [Table of Contents](#table-of-contents)
+  - [W1: Python Basics](#w1-python-basics)
+  - [W2: Python Data Structures](#w2-python-data-structures)
+  - [W3: Python Programming Fundamentals](#w3-python-programming-fundamentals)
+  - [W4: Working with Data in Python](#w4-working-with-data-in-python)
+  - [W5: APIs, and Data Collection](#w5-apis-and-data-collection)
+  - [Refereces](#refereces)
 
 
 
