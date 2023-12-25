@@ -11,10 +11,16 @@
 
 ## Table of Contents
 
-- TBD
+- [W1: Importing Databases](#w1-importing-databases)
+- [W2: Data Wrangling/Munging](#w2-data-wranglingmunging)
+- [W3: Exploratory Data Analysis (EDA)](#w3-exploratory-data-analysis-eda)
+- [W4: MODEL DEVELOPMENT](#w4-model-development)
+- [W5: MODEL EVALUATION AND REFINEMENT](#w5-model-evaluation-and-refinement)
+- [W6: Final Exam](#w6-final-exam)
+- [References](#references)
 
 
-## W1 : Importing Databases
+## W1: Importing Databases
 
 # The Problem
 ## Why Data Analysis ? 
@@ -88,17 +94,18 @@ where => formatdata: csv, json, excel ...
 # Lab 
 - dataset : https://archive.ics.uci.edu/ml/datasets/Automobile?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDA0101ENSkillsNetwork20235326-2021-01-01
 
-# Graded Quiz
+# Quiz
 
-# sum-up 
+**Summary:** 
 
-Define the Business Problem: Look at the data and make some high-level decision on what kind of analysis should be done
-Import and Export Data in Python: How to import data from multiple data sources using the Pandas library and how to export files into different formats.
-Analyze Data in Python: How to do some introductory analysis in Python using functions like dataframe.head() to view the first few lines of the dataset, dataframe.info() to view the column names and data types.
+- Define the Business Problem: Look at the data and make some high-level decision on what kind of analysis should be done
+- Import and Export Data in Python: How to import data from multiple data sources using the Pandas library and how to export files into different formats.
+- Analyze Data in Python: How to do some introductory analysis in Python using functions like dataframe.head() to view the first few lines of the dataset, dataframe.info() to view the column names and data types.
 
-///W2 : Data Wrangling/Munging ///
+## W2: Data Wrangling/Munging
 
 # Pre-processing Data in Python (Data Cleaning/ Data wrangling)
+
 - Process of converting/mapping data from the initial "raw" form into another format
 	=>preparing the data for data analysis 
 - Operation are done along the columns of the DataFrame.
@@ -156,14 +163,14 @@ df.replace(df['a'], np.nan, mean)*/
 - Data wrangling is the process of converting data from the initial 
 format to a format that may be better for analysis.
 
-# Lab 
-# Quiz
+### Lab 
+### Quiz
 
-/////////////////////////////////////////////
-/// W3 : Exploratory Data Analysis (EDA) ///
-////////////////////////////////////////////
+## W3: Exploratory Data Analysis (EDA)
 
 # Exploratory Data Analysis
+
+
 - Preliminary step in data analysis to
 	=> Summarize main characteristics of the data
 	=> Gain better understand of the dataset
@@ -241,6 +248,7 @@ types of correlation :
 - The Chi-square tests a null hypothesis that the variables are independent
 - The Chi-square does not tell you the type relationship that exists btw both variables; but only that a relationship exists
 
+```
 ------------------------------
 || X^2 = Sum (Oi - Ei)^2/Ei ||
 ------------------------------
@@ -256,6 +264,7 @@ types of correlation :
 ------------------------------------------------
 || Defree of freedom = (row - 1)*(column - 1) ||
 ------------------------------------------------
+```
 
 - deviation == difference (btw two values)
 
@@ -272,9 +281,7 @@ Define the association between two categorical variables: Understand how to find
 Exploratory data analysis : https://en.wikipedia.org/wiki/Exploratory_data_analysis
 pandas functions : https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm
 
-///////////////////////////
-///W4: MODEL DEVELOPMENT///
-//////////////////////////
+## W4: MODEL DEVELOPMENT
 
 # Model Development
 - Simple and multiple Linear Regression 
@@ -283,8 +290,7 @@ pandas functions : https://www.tutorialspoint.com/python_pandas/python_pandas_de
 - R-squared and MSE for In-Sample Evaluation
 - Prediction and Decision Making 
 
-/!\ Question  : 
- => How can you determine a fair value for a used car ?
+/!\ Question: How can you determine a fair value for a used car ?
 
 ## Model Development 
 - A model can be thought of as a mathematical equation used to predict a value given one or more other values
@@ -298,11 +304,17 @@ pandas functions : https://www.tutorialspoint.com/python_pandas/python_pandas_de
 ## Simple Linear Regression
 - The predictor(independent) variable: x 
 - The target (dependent) variable: y 
+
+```
+
 ---------------
 |y = bo + b1*x|
 ---------------
+```
+
 where => bo : the intercept 
 		 b1 : the slope 
+
 ## Simple Linear Regression : Prediction 
 - Chose some "hypothetical" inputs value that best match w/ the regression line to fit the model
 ## Simple Linear Regression : Fit 
@@ -310,11 +322,13 @@ where => bo : the intercept
 - Predictor and target are storage in two Numpy Arrays X[predictors] = Y[Target]
 - Noise : random value added to the model to increase the accuracy 
 
+```
 --------------- 	--------- 		--------
 |Input values | => |	Fit	 | => | Predict | (y^ = bo+b1*x) => estimated model
 ---------------		----------		---------
 		||<============================||
 			Retrain the estimatedd values
+```
 
 - To fit the model we use *scikit-learn* library 
 1. Import linear model
@@ -327,9 +341,12 @@ SLR - Estimated Linear Model
 => bo, b1 ...
 
 ## MLR - Estimated Linear Model 
- ---------------------------------------
+
+```
+---------------------------------------
 |y = bo + b1*x1 + b2*x2 + b3*x3 + ...+ |
 ----------------------------------------
+```
 - Same step as the SLM !!!!
 
 # Model Evaluation using Visualization
@@ -362,18 +379,28 @@ Predicted values shall be much closer to the TARGET VALUES!!!!
 - Useful for describing curvilinear relationships
 	=> Curvilineat relationships
 	=> By squaring or setting higher-order terms of the predictor variables
+
 - Quadratic - 2nd order
+```
 ------------------------------
 |Y^ = bo + b1*x1 + b2*(x1)^2 | (square model)
 ------------------------------
+```
+
 - Cubic - 3rd order
+```
 -----------------------------------------
 |Y^ = bo + b1*x1 + b2*(x1)^2 + b3(x1)^3  | (Cubic model)
 -----------------------------------------
+```
+
 - Higher order (when a good fit hasn't been achived by the lower order)
+```
 ------------------------------------------------
 |Y^ = bo + b1*x1 + b2*(x1)^2 + b3(x1)^3 +...+  | (Cubic model)
 -----------------------------------------------
+```
+
 - The relationship btw the variables and parameters is always linear 
 - function to train the model  : np.polyfit(x, y, n) => n : order
 - for more complex polynom better user scikit-learn lib
@@ -381,9 +408,11 @@ Predicted values shall be much closer to the TARGET VALUES!!!!
 ## pipelines
 
 - way to simply the code
+```
 ---------------- 	---------------------	  -------------------
 |Normalization | => |Polynomial transform| => |Linear Regression |
 ----------------    ----------------------	  --------------------
+```
 - pipeline lib => Create pipeline Object (pipe = Pipe())
 - Pipe.fit()
 - Pipe.predict()
@@ -398,9 +427,12 @@ Predicted values shall be much closer to the TARGET VALUES!!!!
 - add every error(difference) and divide by the number of the samples
 - to define the function we can import it from  : sklearn.metrics lib (y, y^)
 
+```
 -------------------------
-| MSE = 1/N*Sum(Y-Y^)^2 | => Derived(MSE) = Gradient Descent !!!
+| MSE = 1/N*Sum(Y-Y^)^2 | 
 --------------------------
+```
+=> Derived(MSE) = Gradient Descent !!!
 
 ## R-squared (R^2)
 - The coef of determination or R squared(R^2)
@@ -408,9 +440,13 @@ Predicted values shall be much closer to the TARGET VALUES!!!!
 - R^2 : the percentage of variation of the target variable (Y) that is explained by the linear model 
 - Think about as comparing a regression model to a simple model i.e the mean of the data points 
 - If the variable x is a good predictor our model should perform much better than the mean 
+
+```
 -----------------------------------------------------------------
 | R^2 = (1 - MSE of regression line/MSE of the avg of the data ) |
 -----------------------------------------------------------------
+```
+
 => MSE of regression line > MSE of the avg of the data
 => (MSE of the avg of the data) != 0  
 => R^2 ~ [0, 1] => the line is a good fit fo the data
@@ -426,18 +462,19 @@ Predicted values shall be much closer to the TARGET VALUES!!!!
 => Numerical measures for evalueation
 => Comparing Models
 
-Summary : 
-Define the explanatory variable and the response variable: Define the response variable (y) as the focus of the experiment and the explanatory variable (x) as a variable used to explain the change of the response variable. Understand the differences between Simple Linear Regression because it concerns the study of only one explanatory variable and Multiple Linear Regression because it concerns the study of two or more explanatory variables.
-Evaluate the model using Visualization: By visually representing the errors of a variable using scatterplots and interpreting the results of the model.
+**Summary:** 
+
+```
+- Define the explanatory variable and the response variable: Define the response variable (y) as the focus of the experiment and the explanatory variable (x) as a variable used to explain the change of the response variable. Understand the differences between Simple Linear Regression because it concerns the study of only one explanatory variable and Multiple Linear Regression because it concerns the study of two or more explanatory variables.
+- Evaluate the model using Visualization: By visually representing the errors of a variable using scatterplots and interpreting the results of the model.
 Identify alternative regression approaches: Use a Polynomial Regression when the Linear regression does not capture the curvilinear relationship between variables and how to pick the optimal order to use in a model.
-Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as the percentage of the variation in the response variable y  that is explained by the variation in explanatory variable(s) x. The Mean Squared Error tells you how close a regression line is to a set of points. It does this by taking the average distances from the actual points to the predicted points and squaring them.
+- Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as the percentage of the variation in the response variable y  that is explained by the variation in explanatory variable(s) x. The Mean Squared Error tells you how close a regression line is to a set of points. It does this by taking the average distances from the actual points to the predicted points and squaring them.
+```
 
-# Lab 
-# Quiz 
+### Lab 
+### Quiz 
 
-//////////////////////////////////////////
-///W5 : MODEL EVALUATION AND REFINEMENT///
-//////////////////////////////////////////
+## W5: MODEL EVALUATION AND REFINEMENT
 
 # Model Evaluation and Refinement
 - Tell how the model performs in the real world 
@@ -503,16 +540,16 @@ Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as 
  ## Grid Search CV
  - takes scoring methods,nb of folds(R^2), the model and free parameters ...   
 
-# Lesson Summary
--Identify over-fitting and under-fitting in a predictive model: Overfitting occurs when a function is too closely fit to the training data points and captures the noise of the data. Underfitting refers to a model that can't model the training data or capture the trend of the data.
--Apply Ridge Regression to linear regression models: Ridge regression is a regression that is employed in a Multiple regression model when Multicollinearity occurs.
--Tune hyper-parameters of an estimator using Grid search: Grid search is a time-efficient tuning technique that exhaustively computes the optimum values of hyperparameters performed on specific parameter values of estimators.
+**Lesson Summary**
 
-#Lab 
-#Quiz
+- Identify over-fitting and under-fitting in a predictive model: Overfitting occurs when a function is too closely fit to the training data points and captures the noise of the data. Underfitting refers to a model that can't model the training data or capture the trend of the data.
+- Apply Ridge Regression to linear regression models: Ridge regression is a regression that is employed in a Multiple regression model when Multicollinearity occurs.
+- Tune hyper-parameters of an estimator using Grid search: Grid search is a time-efficient tuning technique that exhaustively computes the optimum values of hyperparameters performed on specific parameter values of estimators.
 
-///W6///
-- Final Exam 
+### Lab 
+### Quiz
+
+## W6: Final Exam 
 
 
 ## References
