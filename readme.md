@@ -1,6 +1,6 @@
 # IBM Data Science Professional Certificate - Coursera
 
-## Overview
+![Spacex Falcon Heavy dual landing](https://media4.giphy.com/media/3ohs4gSs3V0Q7qOtKU/giphy.gif?cid=ecf05e4783dj1rqzpmjakyf4ro5fxexfzbh2a79vnf7r70je&ep=v1_gifs_related&rid=giphy.gif&ct=g)
 
 I recently [completed](https://www.coursera.org/account/accomplishments/professional-cert/GRC4DCMSV5PH?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof) the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) from Coursera, and here are my notes, course resources and project assignments.
 
@@ -29,7 +29,7 @@ The full specialization consists of 10 courses, but each can be taken individual
 9. [Machine Learning with Python](./course9_machine_learning_w_python/)
 10. [Applied Data Science Capstone](./couse10_applied_data_science_capstone/)
 
-Happy learning ! :blush:
+Happy learning!
 
 ## References
 
