@@ -2,7 +2,7 @@
 
 ![Spacex Falcon Heavy dual landing](https://media4.giphy.com/media/3ohs4gSs3V0Q7qOtKU/giphy.gif?cid=ecf05e4783dj1rqzpmjakyf4ro5fxexfzbh2a79vnf7r70je&ep=v1_gifs_related&rid=giphy.gif&ct=g)
 
-Notes and assignments from [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) from Coursera.
+Notes and assignments of [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) from Coursera.
 
 ## What You Will Learn?
 
